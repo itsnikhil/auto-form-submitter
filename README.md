@@ -8,7 +8,7 @@
 
 ## Installation
 
-![Installed extension](/blog/img/installed.png)
+![Installed extension](installed.png)
 
 **Get it form Microsoft Edge Extensions Store** - Coming soon
 
