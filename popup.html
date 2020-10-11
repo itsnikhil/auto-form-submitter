@@ -1,0 +1,56 @@
+<!-- 
+Author: Nikhil Taneja (taneja.nikhil03@gmail.com)
+popup.html (c) 2020
+Desc: UI for extension popup
+Created:  Thu Oct 08 2020 17:32:39 GMT+0530 (India Standard Time)
+Modified: Sun Oct 11 2020 13:13:20 GMT+0530 (India Standard Time)
+-->
+
+<!doctype html>
+<html>
+
+<head>
+  <title>Auto Form Submitter</title>
+  <script src="./popup.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div>
+    <h3>Auto Form Submitter</h3>
+  </div>
+  <section id="auto-submit-office-form-controls">
+    <div>
+      <label class="switch">
+        <input id="power" type="checkbox" disabled>
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div style="padding: 0px;">
+      <p id="help-text" style="text-align: center;">Form will be auto submitted in</p>
+      <!-- Display the countdown timer in an element -->
+      <strong>
+        <h2 style="text-align: center;" id="demo"></h2>
+      </strong>
+    </div>
+
+    <div>
+      <label for="appt">Select a deadline<br>(24 hour format)</label>
+      <input type="time" id="appt" name="appt" step="1">
+    </div>
+    <br>
+    <div>
+      <input type="submit" id="saveConfig" class="button" disabled value="Save">
+    </div>
+  </section>
+  <br>
+  <div class="tooltip" style="margin: auto">Hover over me
+    <span class="tooltiptext">The software is provided "as is", without warranty of any kind, express or implied,
+      including but not limited to the warranties of merchantability, fitness for a particular purpose and
+      noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other
+      liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the
+      software or the use or other dealings in the software.</span>
+  </div>
+</body>
+
+</html>

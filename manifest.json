@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "default_locale": "en",
+  "author": "Nikhil Taneja",
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+   "128": "icon.png" },
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "version": "0.0.0.1",
+  "page_action": {
+    "default_icon": "gray_icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Open the popup"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "background",
+    "*://forms.office.com/Pages/ResponsePage.aspx?id=*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://forms.office.com/Pages/ResponsePage.aspx?id=*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "_execute_page_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens popup.html"
+    }
+  }
+}
