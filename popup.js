@@ -3,7 +3,7 @@
 // popup.js (c) 2020
 // Desc: Controller
 // Created:  Thu Oct 08 2020 18:32:27 GMT+0530 (India Standard Time)
-// Modified: Sun Oct 11 2020 13:28:16 GMT+0530 (India Standard Time)
+// Modified: Tue Oct 13 2020 12:51:15 GMT+0530 (India Standard Time)
 // 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(x);
             document.getElementById("demo").innerHTML = "DISABLED";
             document.getElementById("help-text").innerHTML = "Auto submit has been turned off";
-            chrome.runtime.sendMessage({ enabled: false });
+            chrome.runtime.sendMessage({ time: new Date(), enabled: false });
         }
     }
 });

@@ -16,13 +16,15 @@
   },
   "permissions": [
     "tabs",
+    "alarms",
     "storage",
     "background",
-    "*://forms.office.com/Pages/ResponsePage.aspx?id=*"
+    "*://forms.office.com/Pages/ResponsePage.aspx?id=*",
+    "*://forms.microsoft.com/Pages/ResponsePage.aspx?id=*"
   ],
   "content_scripts": [
     {
-      "matches": ["*://forms.office.com/Pages/ResponsePage.aspx?id=*"],
+      "matches": ["*://forms.office.com/Pages/ResponsePage.aspx?id=*","*://forms.microsoft.com/Pages/ResponsePage.aspx?id=*"],
       "js": ["content_script.js"]
     }
   ],
