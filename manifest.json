@@ -8,7 +8,7 @@
    "128": "icon.png" },
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
   "page_action": {
     "default_icon": "gray_icon.png",
     "default_popup": "popup.html",

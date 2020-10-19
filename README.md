@@ -8,11 +8,15 @@
 
 ## Installation
 
-![Installed extension](installed.png)
 
-**Get it from Microsoft Edge Extensions Store** - Coming soon
+**Get it from Microsoft Edge Extensions Store**:
+
+https://microsoftedge.microsoft.com/addons/detail/office-form-auto-submit/plnfbbohkagpfojbbdmjachggboeakpo
 
 ### Manual Installation
+
+![Installed extension](installed.png)
+
 * First clone the project
 ```bash
 git clone https://github.com/itsnikhil/auto-form-submitter.git
@@ -21,7 +25,7 @@ git clone https://github.com/itsnikhil/auto-form-submitter.git
 * From top right three dots button menu, **Go to Extenstions**
 * Click **Load unpacked**
 * Give the path to director where you have cloned the project
-* Try it out on [this Micorosoft Office form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdCUielUNDlXQ09NUkJBTU5QT0IxR1lWNUZKTk1VNy4u)
+* Try it out on [this Microsoft Office form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAdCUielUNDlXQ09NUkJBTU5QT0IxR1lWNUZKTk1VNy4u)
 
 ## Steps to use:
 
